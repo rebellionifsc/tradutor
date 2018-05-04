@@ -1,0 +1,29 @@
+{
+
+  "nome" : "ederson",
+  "produtos" : [
+    "cebola" ,
+    "alho"
+    ]
+}
+
+lista = request.json['produtos']
+if len(lista) == 1:
+else:
+  primeiro_item = lista[1]
+  consulta = 'SELECT ...'
+  for x in range(2, len(lista)):
+    consulta = consulta + 'AND ...'
+
+SELECT
+  *
+FROM
+  ingrediente
+WHERE
+  produto IN (
+    SELECT
+      id
+    FROM
+      produtos
+    WHERE
+      nome = 'cebola'

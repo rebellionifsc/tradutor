@@ -16,7 +16,10 @@ def busca():
                           database='Heyceitas',
                           host='localhost')
     cursor = cnx.cursor()
-    resultado = cursor.execute( 'select * from ingrediente where produto = (select id from produto where nome = "alho")')
+    resultado = cursor.execute('select *
+                               from ingrediente
+                               where produto =
+                               (select id from produto where nome = "alho")')
     print (resultado)
     cursor.close()
     cnx.close()
