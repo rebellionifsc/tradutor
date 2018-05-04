@@ -1,0 +1,40 @@
+{
+        "sweet fit": [
+
+
+    { "name": "Cookies de amendoim",
+      "description": "É uma boa opção para levar na marmita como lanche fit. A receita rende dois cookies grandes ou quatro médios.",
+      "image": "http://cozinhafit.com.br/wp-content/uploads/2017/02/FullSizeRender.jpg",
+      "ingredients": [
+
+        {
+            "unity": "xícara",
+            "number": 0.5,
+            "name": "farinha de amendoim"
+        },
+
+        {
+            "unity": "colher de sopa",
+            "number": 1,
+            "name": "pasta de amendoim"
+        },
+
+        {
+            "unity": "a gosto",
+            "number": null,
+            "name": "canela"
+        },
+
+        {
+            "unity": "colheres de sopa",
+            "number": 2,
+            "name": "água"
+        }
+    ],
+
+    "preparation":[
+
+    "- Misture todos os ingredientes e molde em círculos.",
+    "- Asse durante 25 minutos no forno a 220°."
+]
+}
