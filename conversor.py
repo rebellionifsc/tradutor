@@ -11,9 +11,9 @@ def pingpong():
 @app.route("/busca", methods = ['POST'])
 def busca():
     req = request.json
-    cnx = mysql.connector(user='root',
-                          password='buracoquente',
-                          database='Heyceitas',
+    cnx = mysql.connector(user='',
+                          password='',
+                          database='',
                           host='localhost')
     cursor = cnx.cursor()
     resultado = cursor.execute('select *
